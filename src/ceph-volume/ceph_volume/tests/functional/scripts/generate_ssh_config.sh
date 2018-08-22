@@ -11,4 +11,4 @@ if [ $# -eq 0 ]
 fi
 
 cd "$path"
-vagrant ssh-config > vagrant_ssh_config
+VAGRANT_LOG=debug vagrant ssh-config > vagrant_ssh_config
